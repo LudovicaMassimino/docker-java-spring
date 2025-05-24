@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "dockerPackage_16f26efb"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringdockerApplication<springdocker>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ludo.springdocker.SpringdockerApplication",
+            "projectName": "springdocker",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=54543 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=springdocker"
+        }
+    ]
+}
